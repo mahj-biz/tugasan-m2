@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.red{
+    background-color: #F25F5C;    
+}
+.yellow{
+    background-color: #FFE066;
+}
+.blue{
+    background-color: #247BA0;
+}
+.lb{
+    background-color: #70C1B3;
+}
+/*Diagram 1*/
+.container1{
+    height: 1024px;
+    width: 1440px; 
+    background-color: #FFFFFF;
+    border: black 1px;
+    border-style: solid;
+}
+.box1{
+    height: 152px;
+    width: 152px;
+    position: absolute;
+    margin-top: 47px;
+    margin-left: 48px;
+}
+.box2{
+    height: 431px;
+    width: 689px; 
+    position: relative;
+    margin:56px 55px;
+}
+#red1{
+    top: 0;
+    left: 0;
+}
+#yellow1{
+    top: 50px;
+    left: 50px;
+}
+#blue1{
+    top: 100px;
+    left: 100px;
+}
+/* Diagram 2 */
+.container2{
+    height: 1024px;
+    width: 1440px; 
+    background-color: #FFFFFF;
+    border: black 1px;
+    border-style: solid;
+    position: relative;
+}
+.box3{
+    height: 152px;
+    width: 152px;    
+    position: absolute;
+    margin: 103px;
+    
+}
+#red2{
+    top: 0;
+    left: 0;
+}
+#yellow2{
+    top: 150px;
+    left: 150px;
+}
+#blue2{
+    top: 300px;
+    left: 300px;
+}
+/* Diagram 3 */
+
+.box4{
+    width: 689px;
+    height: 811px;
+    position: relative;
+    margin:56px 55px;
+    display: grid;
+    align-items: end;
+    justify-items: end;
+}
+.box5{
+    height: 152px;
+    width: 152px;
+    position: absolute;
+    margin: 47px 48px;
+}
+#red3{
+    top: 0;
+    left: 0;
+}
+#yellow3{
+    left: 0;
+}
+#blue3{
+    top: 0;
+}
+/* Diagram 4 */
+.box6{
+    width: 689px;
+    height: 811px;
+    position: relative;
+    margin:56px 55px;
+    display: grid;
+    align-items: end;
+    justify-items: end;
+}
+#red4{
+    top: 0;
+    left: 0;
+}
+#yellow4{
+    left: 0;
+}
+#blue4{
+    top: 300px;
+}
