@@ -1,0 +1,77 @@
+
+html *
+{
+   font-family: 'Bebas Neue', sans-serif!important;
+}
+
+.container{
+    background-color: #1E1F2F;
+    width: 1610px;
+    height: 930px;
+    position: relative;
+}
+
+.word1{
+    width: 331px;
+    height: 96px;
+
+    margin:125px 1018.46px 715px 261.54px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128%;
+    
+
+    display: flex;
+    align-items: center;
+   
+    position: absolute;
+    color: #FFFFFF;
+}
+
+.word2{    
+    width: 800px;
+    height: 400px;
+    /* left: 130px;
+    top: 301px; */
+
+    margin:301px 601px 235px 130px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 156px;
+    line-height: 93.5%;
+
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    color: #FFFFFF;
+}
+
+.square1{
+    
+    position: absolute;
+    width: 31.06px;
+    height: 27.42px;
+
+
+    margin: 125px 1449.94px 783.58px 130px;
+
+    background: #FFFFFF;
+}
+
+.square2{
+    position: absolute;
+    width: 60.47px;
+    height: 68.55px;
+  
+    margin: 152.45px 1389.46px 715px 161.07px;
+    /* $color-primary-base */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    background: #E82C4F;
+}
