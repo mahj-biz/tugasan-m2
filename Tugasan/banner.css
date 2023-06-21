@@ -9,6 +9,8 @@ html *
     width: 1610px;
     height: 930px;
     position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .word1{
@@ -48,6 +50,8 @@ html *
 
     position: absolute;
     color: #FFFFFF;
+
+    z-index: 3;
 }
 
 .square1{
@@ -74,4 +78,89 @@ html *
     display: flex;
     
     background: #E82C4F;
+}
+
+#Himg{
+    position: absolute;
+    height: 34px;
+    width: 43.94px;
+    margin: 796px 1427.06px 106px 140px;
+
+}
+#Cimg{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin: 793px 1087px 103px 484px;
+
+}
+
+.word3{    
+    width: 196px;
+    height: 48px;
+
+    margin: 789px 1209px 99px 206px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 40px;
+
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    color: #FFFFFF;
+}
+
+.word4{    
+    width: 196px;
+    height: 48px;
+
+    margin: 789px 865px 99px 550px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 40px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    position: absolute;
+    color: #FFFFFF;
+
+    z-index: 3;
+}
+.bgsq1{
+    box-sizing: border-box;
+
+    /* margin: 385px 382px 93px 691px; */
+
+    position: absolute;
+    width: 558px;
+    height: 644px;
+    left: 691px;
+    top: 385px;
+    
+    border: 60px solid #2D2F48;
+
+    z-index: 2;
+}
+.bgsq2{
+    box-sizing: border-box;
+
+    /* margin: 179px 116px 471px 1169px; */
+
+    position: absolute;
+    width: 558px;
+    height: 644px;
+    left: 1169px;
+    top: -179px;
+
+    border: 60px solid #48596D;
+
+    z-index: 2;
 }
